@@ -63,18 +63,6 @@
             margin:20px 0px;
         }
 
-        #details #phone {
-            background: url(images/phone.jpg) no-repeat;
-        }
-
-        #details #emailside {
-            background: url(images/email.jpg) no-repeat;
-        }
-
-        #details #address {
-            background: url(images/address.jpg) no-repeat;
-        }
-
             /*
             ------------------------------------------------------------
             |                        Top styles
@@ -182,6 +170,9 @@
             clear:both;
             height:0px;
         }
+        .comment-content {
+            margin-left: 15px;
+        }
     </style>
 </head>
 <body>
@@ -204,50 +195,140 @@
         <!-- begin the resume content -->
 
         <!-- begin section -->
+        <div>
+            <h1 class="purple">我</h1>
+            <div class="comment-content">
+
+                <div class="edit-comment-hide">
+                    <div class="js-comment-body comment-body markdown-body "><ul>
+                        <li>
+                            <p>轨迹</p>
+
+                            <p>曾经蹉跎，几经辗转，本是翩翩小文青，走火入魔变身programming流浪汉。</p>
+
+                            <p>转身甚多，未有凝滞。JAVA后端开发 =&gt; oracle procedure开发 =&gt; java portal =&gt; 转php web(LAMP) =&gt; noBackend app开发（纯JS）</p>
+                            <p>闲时读书写字搞点研究。发现过框架bug，提交过开源项目patch。</p>
+                        </li>
+                        <li>
+                            <p>自评<br>
+                                良好的知觉、记忆、注意和想象的能力，科学的思维模式</p>
+
+                            <p>Problem solver. 爱钻研，爱鼓捣，人送外号"工具帝"。关注底层原理，关注认知科学，关注思维如何改变生活</p>
+                        </li>
+                    </ul></div>
+                </div>
+            </div>
+            <hr><!-- horizontal rule -->
+        </div>
+
         <h1 class="blue">工作经历</h1>
-        <h2>Ebay.inc <small>2012/11 - </small></h2>
-        <div class="position">软件工程师</div>
-        <p>部门: Data & Data Infrastructure</p>
-        <p>Team: DataHub</p>
-        <hr><!-- horizontal rule -->
-        <h2>群硕软件开发(上海)有限公司 <small>2011/3 — 2012/11</small></h2>
-        <div class="position">Freelance web design</div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis varius turpis sit amet commodo. Aenean a diam id nisl sodales ultrices. Proin id leo ut turpis placerat pharetra. Nunc et lacus sed arcu lobortis pharetra. Mauris sagittis consectetur sapien pretium aliquet.</p>
+        <div>
+            <h2>Ebay.inc <small>2012/11 - NOW</small></h2>
+            <div class="position">Team DataHub of DDI, 软件工程师</div>
+            <div class="comment-content">
+
+                <div class="edit-comment-hide">
+                    <div class="js-comment-body comment-body markdown-body "><p>Datahub是Ebay data &amp; data infrastructure 部门下面的各种大数据product的前端和入口，将大数据分析的结果以更friendly和powerful的方式提供给Ebay的PM/PO/Analyst。<br>
+                        参与项目：</p>
+
+                        <ul>
+                            <li>DataHub 4.0
+                                基于joomla框架的web开发，LAMP架构，部署在ebay内部IAAS平台</li>
+                            <li>Virtual Data Mart
+                                基于angularJS的noBackend app开发，front end drive，service仅做一些DB操作并提供JSON data</li>
+                        </ul></div>
+                </div>
+            </div>
+            <hr><!-- horizontal rule -->
+        </div>
+
+        <div>
+            <h2>群硕软件开发(上海)有限公司 <small>2011/3 — 2012/11</small></h2>
+            <div class="position">Team Endplay, 软件工程师</div>
+            <div class="comment-content">
+
+                <div class="edit-comment-hide">
+                    <div class="js-comment-body comment-body markdown-body "><h4>工作描述：</h4>
+
+                        <p>实践敏捷过程Scrum，与美国客户实时沟通(GoToMeeting等)，进行迭代式开发，实现增量交付、快速反馈。</p>
+
+                        <h4>工作内容：</h4>
+
+                        <p>进行<a href="http://www.mutasia.com">mutasia网站</a> 的开发，本公司offshore团队为五人，进行eCommerce电子商务部分的开发，我在其中负责带领三名同事进行具体的前后台coding,integration,并跟踪进度和处理疑难问题，向leader直接负责，辅助leader进行team管理。 项目第二阶段，由我一人负责整个mutasia项目的后续开发。 </p>
+
+                        <h4>汇报对象：</h4>
+
+                        <p>客户的Senior Director </p>
+
+                        <h4>成绩：</h4>
+
+                        <p>工作中受到公司副总裁的赞许和鼓励。</p></div>
+                </div>
+            </div>
+            <hr>
+        </div>
+
+        <div>
+            <h2>上海德邦物流有限公司 <small>2010/7--2011/3</small></h2>
+            <div class="position">CRM系统开发部, 软件工程师</div>
+            <div class="comment-content">
+
+                <div class="edit-comment-hide">
+                    <div class="js-comment-body comment-body markdown-body "><h4>工作描述：</h4>
+
+                        <p>任职于德邦物流-IT部-CRM开发部-报表开发小组，参与到德邦“报表中心”项目的草创与建设，目的是整合全公司各岗位2万余人的日常报表需求，取代大量非必要的人工统计操作，全面提高公司数据交流与汇报的准确性与及时性。 </p>
+
+                        <h4>工作内容：</h4>
+
+                        <p>前台应用方面，完成机构、权限管理等模块与excel操作等工具类的开发，以及部分通用JS的编写；后台数据库方面，参与到数据仓库建模，完成部分表设计与复杂报表存储过程的开发。 </p>
+
+                        <h4>汇报对象：</h4>
+
+                        <p>客户关系系统开发部高级经理 </p>
+
+                        <h4>荣誉：</h4>
+
+                        <p>德邦IT部2010年IT技能大赛一等奖</p></div>
+                </div>
+            </div>
+        </div>
         <!-- end section -->
 
         <!-- begin section -->
-        <h1 class="pink">Professional skills</h1>
-        <p>Nunc et lacus sed arcu lobortis pharetra. Mauris sagittis consectetur sapien pretium aliquet. Nunc et lacus sed arcu lobortis pharetra. Mauris sagittis consectetur sapien pretium aliquet.</p>
+        <h1 class="pink">技能</h1>
+        <p>Windows/Linux脚本,设计模式，agile</p>
         <div class="floatleft">
             <h3>Software</h3>
             <ul>
-                <li>Photoshop</li>
-                <li>Flash</li>
-                <li>Dreamweaver</li>
-                <li>InDesign</li>
+                <li>idea/eclipse/phpStorm等</li>
+                <li>Emacs/VI/Sublime Text等</li>
+                <li>LAMP/Zend server</li>
+                <li>ant/maven/grunt等build工具</li>
+                <li>jenkins等CI工具</li>
             </ul>
         </div>
         <div class="floatleft">
             <h3>Languages</h3>
             <ul>
-                <li>HTML/CSS</li>
-                <li>ActionScript</li>
+                <li>HTML/CSS/Less</li>
+                <li>JavaScript/Coffee</li>
+                <li>Java</li>
                 <li>PHP</li>
-                <li>Ruby on Rails</li>
+                <li>Little python, ruby</li>
             </ul>
         </div>
         <div class="clear"></div>
         <!-- end section -->
 
         <!-- begin section -->
-        <h1 class="orange">Education</h1>
-        <h2>University of Awesome <small>January 2004 - October 2009</small></h2>
-        <div class="position">Majored in Awesome</div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis varius turpis sit amet commodo. Aenean a diam id nisl sodales ultrices. Proin id leo ut turpis placerat pharetra. Nunc et lacus sed arcu lobortis pharetra. Mauris sagittis consectetur sapien pretium aliquet.</p>
+        <h1 class="orange">教育经历</h1>
+        <h2>太原理工大学 <small>2006/9 -- 2010/7 </small></h2>
+        <div class="position">软件工程</div>
+        <p>程序设计语言，数据库，软件开发工具，系统平台，标准，设计等</p>
         <hr><!-- horizontal rule -->
-        <h2>University of Technology, Sydney <small>April 2001 - September 2003</small></h2>
-        <div class="position">Bachelor of Arts</div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis varius turpis sit amet commodo. Aenean a diam id nisl sodales ultrices. Proin id leo ut turpis placerat pharetra. Nunc et lacus sed arcu lobortis pharetra. Mauris sagittis consectetur sapien pretium aliquet.</p>
+        <h2>东方标准太原（海辰）培训中心 <small>2009/3 -- 2009/9</small></h2>
+        <div class="position">Java EE</div>
+        <p>Java EE和web开发</p>
         <!-- end section -->
 
     </div><!-- end content -->
