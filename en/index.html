@@ -69,6 +69,11 @@
        line-height:21px;
      }
 
+     a {
+         color: #337ab7;
+       text-decoration: none;
+     }
+
      a img {
        border:0 none;
      }
@@ -249,6 +254,12 @@
      em {
        font-weight: bolder;
      }
+
+     .tip {
+         opacity: .8;
+         font-size: smaller;
+         margin-left: 10px;
+     }
     </style>
   </head>
   <body>
@@ -312,7 +323,24 @@
 
         <h1 class="blue">Work Experience</h1>
         <div>
-          <h2>eBay inc. <small>2012/11 - NOW</small></h2>
+          <h2>eBay inc. (Seattle) <small>2016/03 - NOW</small></h2>
+          <div class="position">Team Customer DNA under DSS, Senior Software Engineer</div>
+          <div class="comment-content">
+            <div class="edit-comment-hide">
+              <div class="js-comment-body comment-body markdown-body ">
+                <h4>Description：</h4>
+                <p>
+                  Architecture design and development for different Data Products(Web) and Data Services
+                </p>
+                <p>
+                  Devops: Setup and maintain Linux Servers, Jenkins CI, Docker containers.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h2>eBay inc. (Shanghai) <small>2012/11 - 2016/3</small></h2>
           <div class="position">Team Operation Insights of DSS, Senior Software Engineer</div>
           <div class="comment-content">
             <div class="edit-comment-hide">
@@ -322,14 +350,25 @@
                   Architecture design and development for different Data Products(Web) and Data Services
                 </p>
                 <p>
-                  Setup and maintain Linux Servers with different environments(dev, prod and Jenkins CI)
+                  Devops: Setup and maintain Linux Servers, Jenkins CI, Solr Search engine. Adopted Docker to run applications in containers.
                 </p>
 
                 <h4>Project Experience：</h4>
-
+                <p class="tip">Below is major parts of my projects, you can see more minor projects in <a target="_blank"
+                                       href="https://github.corp.ebay.com/ihub">ihub</a>
+                    and
+                    <a target="_blank" href="https://github.corp.ebay.com/opsins">opsins</a></p>
                 <ul>
                   <li>
-                    <strong>Angular Boilerplate</strong>
+                      <strong>
+                          <a href="https://github.corp.ebay.com/opsins/angular-boilerplate" target="_blank">Angular Boilerplate</a>
+                          <small>(
+                              <a target="_blank" href="https://github.corp.ebay.com/opsins/angular-boilerplate/graphs/contributors">
+                                  contributors
+                              </a>
+                              )
+                          </small>
+                      </strong>
                     <p>
                       A quick development front-end framework based on <i class="m-animate">Angular</i> and Bootstrap, provide whole dev->test->release process. All the web products of Operation Insights team are using this framework.
                     </p>
@@ -346,22 +385,37 @@
                     </ul>
                   </li>
                   <li>
-                    <strong>iHub Framework</strong>
+                      <strong>
+                          <a target="_blank" href="https://github.corp.ebay.com/ihub/ihub">iHub Framework</a>
+                          <small>
+                              (
+                              <a target="_blank" href="https://github.corp.ebay.com/ihub/ihub/wiki">wiki</a>
+                              ,
+                              <a target="_blank" href="https://github.corp.ebay.com/pages/ihub/ihub/">standard</a>
+                              )
+                          </small>
+                      </strong>
                     <p>
                       Unified styles, components, services and engineering standards used for DSS organization.
                     </p>
                     <ul>
                       <li>
-                        <em>Responsibility:</em> member of tech committee, participate in architecture design and development
+                        <em>Responsibility:</em> architecture design and development
                       </li>
                       <li>
-                        <em>Using:</em> Vanilla JS/CSS, gulp
+                        <em>Using:</em> Vanilla JS/CSS, gulp, requireJS, sailsJS(Node)
                       </li>
                     </ul>
                   </li>
 
                   <li>
-                    <strong>Opsins Service</strong>
+                      <strong>
+                          <a target="_blank" href="https://github.corp.ebay.com/opsins/opsins-service">Opsins Service</a>
+                          <small>
+                              <a target="_blank" href="https://github.corp.ebay.com/pages/opsins/opsins-service/">documentation</a>
+                              <a target="_blank" href="https://github.corp.ebay.com/opsins/opsins-service/graphs/contributors">contributors</a>
+                          </small>
+                      </strong>
                     <p>
                       Unifed service layer for Team Operation Insights
                     </p>
@@ -385,26 +439,26 @@
                     </p>
                     <ul>
                       <li>
-                        <em>Data Lineage:</em> AngularJS + Bootstrap + font-awesome + animate.css + <i class="m-animate">d3.js</i>
+                          <em><a target="_blank" href="http://doe/lineage">Data Lineage</a>:</em> AngularJS + Bootstrap + font-awesome + animate.css + <i class="m-animate">d3.js</i>
                       </li>
                       <li>
-                        <em>Data Availability:</em> AngularJS + Bootstrap + font-awesome + animate.css + d3.js
+                          <em><a target="_blank" href="http://doe/availability">Data Availability</a>:</em> AngularJS + Bootstrap + font-awesome + animate.css + d3.js
                       </li>
                       <li>
-                        <em>Data Asset Usage Analysis:</em> AngularJS + Bootstrap + font-awesome + animate.css + highcharts.js
+                          <em><a target="_blank" href="http://doe/usage">Data Asset Usage Analysis</a>:</em> AngularJS + Bootstrap + font-awesome + animate.css + highcharts.js
                       </li>
                     </ul>
                   </li>
 
                   <li>
-                    <strong>Virtual Data Mart of DataHub 5.0</strong>
+                      <strong><a target="_blank" href="https://vdm.corp.ebay.com">Virtual Data Mart</a> of DataHub 5.0</strong>
                     <p>
                       noBackend app (SPA) based on angularJS,front end drive.
                       Developed all the frontend related code
                     </p>
                   </li>
                   <li>
-                    <strong>DataHub 4.0</strong>
+                      <strong><a target="_blank" href="https://datahub.corp.ebay.com/">DataHub 4.0</a></strong>
                     <p>
                       Linux + Apache + Mysql + PHP, devoloped some modules like solr search,AAP bulk, cache buster
                     </p>
@@ -425,12 +479,7 @@
               <div class="js-comment-body comment-body markdown-body ">
                 <h4>Description：</h4>
                 <p>
-                  Developed <a href="http://www.mutasia.com/">mutasia.com</a>,It's an eCommerce website,be responsible for leading coding,integration,tracking and problem solving
-                </p>
-
-                <h4>Using:</h4>
-                <p>
-                  JAVA EE, liferay portal
+                  Using JAVA EE, liferay portal. Developed <a href="http://www.mutasia.com/">mutasia.com</a>,It's an eCommerce website,be responsible for leading coding,integration,tracking and problem solving
                 </p>
               </div>
             </div>
@@ -445,15 +494,7 @@
               <div class="edit-comment-hide">
                 <div class="js-comment-body comment-body markdown-body ">
                   <h4>Description：</h4>
-                  <p>Developed Deppon Reports Center, be responsible for modules development and oracle procedure development</p>
-
-                  <h4>Reports To：</h4>
-                  <p>Senior Manager </p>
-
-                  <h4>Honor：</h4>
-                  <p>First prize of IT skills contest in 2010</p>
-                  <h4>Using：</h4>
-                  <p>Java EE related tech</p>
+                  <p>Developed Deppon Reports Center(Java Web), be responsible for modules development and oracle procedure development</p>
                 </div>
               </div>
             </div>
